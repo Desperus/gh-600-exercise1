@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     allowed-files:
@@ -30,11 +31,12 @@ Read `notes/mona-notes.md` first. Use the web-fetch tool to read:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` with concise, practical information that
 helps developers learn GitHub faster. Use only useful, relevant updates from
-these official sources, avoid duplicating existing content, and identify the
-source for each update.
+these sources, avoid duplicating existing content, and identify the source
+for each update.
 
 When the page changes, create a pull request targeting `main` for Mona to
 review. Summarize the changes and their sources in the pull request, and
